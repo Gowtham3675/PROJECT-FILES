@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infosys Login Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.form-container {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    color: black;
+}
+.btn-custom {
+    background-color: blue; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: blue; 
+}
+
+
+           
+    </style>
+</head>
+<body background="C:\Users\GOWTHAM R\Pictures\Infosys-Celebrates-Eight-Years-on-NYSE_-Achieving-Carbon-Neutrality_-and-Announcing-its-ESG-Vision-2030.jpg">
+    <div class="container">
+        <div class="form-container">
+            <h2>Infosys Application Form</h2>
+            <form id="applicationForm">
+                <div class="form-group">
+                    <label for="email"><b>Email address</b></label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="fn"><b>First Name</b></label>
+                    <input type="text" class="form-control" id="fn" name="fn" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="ln"><b>Last Name</b></label>
+                    <input type="text" class="form-control" id="ln" name="ln" placeholder="Enter your last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address"><b>Address</b></label>
+                    <input class="form-control" id="address" name="address" placeholder="Enter your address" required>
+                </div>
+                <div class="form-group">
+                    <label for="state"><b>Select State</b></label>
+                    <select class="form-control" id="state" name="state">
+					<option value="">Enter your state:</option>
+                        <option value="State1">Tamil Nadu</option>
+                        <option value="State2">Kerala</option>
+                        <option value="State3">Uttar Pradesh</option>
+                        <option value="State4">Karnataka</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="job_title"><b>Select Job Title</b></label>
+                    <select class="form-control" id="job title" name="job title" >
+						<option value="">Enter Job Title:</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Designer">Designer</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Tester">Tester</option>
+                    </select>
+                </div>
+                 <center><a href="E:\html\Infosys login page\Thank you .html" class="btn btn-primary">Apply Now</a></center>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
